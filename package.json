@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "auto-launch": "^1.0.1",
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^4.0.0",
     "classnames": "^2.2.3",
     "electron-gh-releases": "^2.0.2",
     "electron-positioner": "^2.0.2",
