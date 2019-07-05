@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - normalizr > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - redux > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-redux > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd-touch-backend > react-dnd > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd > dnd-core > redux > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd-touch-backend > react-dnd > dnd-core > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
+    - react-dnd-touch-backend > react-dnd > dnd-core > redux > lodash:
+        patched: '2019-07-05T05:05:11.554Z'
