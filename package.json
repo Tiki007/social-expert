@@ -82,7 +82,7 @@
     "webpack-hot-middleware": "^2.7.1"
   },
   "dependencies": {
-    "auto-launch": "^1.0.1",
+    "auto-launch": "^2.0.1",
     "bootstrap": "^3.3.6",
     "classnames": "^2.2.3",
     "electron-gh-releases": "^2.0.2",
