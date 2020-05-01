@@ -9,7 +9,9 @@
     "compress:electron": "npm run build:electron && gulp compress:electron",
     "release": "npm run lint && bash scripts/codesign.bash && bash scripts/electron-release.bash",
     "clean": "rm -rf build/",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -111,6 +113,8 @@
     "redux-persist": "^2.0.0-rc2",
     "redux-saga": "^0.9.1",
     "reloading": "^0.0.6",
-    "roboto-fontface": "^0.4.5"
-  }
+    "roboto-fontface": "^0.4.5",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
