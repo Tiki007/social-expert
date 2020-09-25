@@ -102,7 +102,7 @@
     "react-icons": "^1.0.3",
     "react-immutable-render-mixin": "^0.9.5",
     "react-redux": "^4.4.0",
-    "react-redux-toastr": "^2.1.0",
+    "react-redux-toastr": "^6.0.0",
     "react-router": "^2.0.0",
     "react-router-redux": "^4.0.0",
     "react-toolbox": "^0.14.1",
